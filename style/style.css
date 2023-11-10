@@ -1,0 +1,155 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: #e18181;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Cabecalho{
+width: 1440px;
+height: 400px;
+flex-shrink: 0;
+padding: auto;
+margin: auto;
+}
+.Pokedex{
+ width: 375.608px;
+ height: 152px;
+flex-shrink: 0;
+margin-left: 430px;
+margin-top: 28px;
+position: absolute;
+background: url(imagens/pokedex.png);
+text-align: center;
+}
+.Pokebola{
+width: 200px;
+height: 200px;
+flex-shrink: 0;
+background: url(imagens/pokebola.png);
+margin-left: 806px;
+margin-top: 5px;
+position: absolute;
+}
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.pokemon{
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+.imgContainer img{
+    max-width: 90%;
+}
+.info{
+    margin-top:20px ;
+}
+.number{
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.name{
+    margin: 15 0 7px;
+    letter-spacing: 1.5px;
+
+}
+.Informaçoes{
+width: 350px;
+height: 60px;
+flex-shrink: 0;
+background: #ffffff;
+border-radius: 50px;
+margin-top: -175px;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.iconPokedex{
+width: 66px;
+height: 66px;
+flex-shrink: 0;
+background: url(imagens/ico_pokedex.png);
+margin-left: 188px;
+margin-top: 45px;
+position: absolute;
+}
+.total{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 261px;
+margin-top: 75px;
+position: absolute;
+}
+.Procura{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 1024px;
+margin-top: 33px;
+position: absolute;
+}
+.rodape{
+width: 100%;
+height: 100px;
+flex-shrink: 0;
+background: #ffffff;
+}
+.by{
+    color: #000000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+padding: 10px;
+}
+.api{
+    color: #000000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.divSearch{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input {
+    padding: 5px;
+    outline: none;
+}
